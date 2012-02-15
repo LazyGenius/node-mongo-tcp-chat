@@ -1,0 +1,15 @@
+node-mongo-tcp-chat
+
+This is a very quick and simple "proof of concept" chat server written in nodejs, utilizing a MongoDB message storage backend.
+
+It was created just to see how easily a client/server implementation could be done (we primarily use Python for our backend), and as a result - we're definitely going to be taking a closer look.
+
+It's quite easy to use, configure the listening IP and port at the bottom of the script (and the host and port for your Mongo instance), then run it with "node server.js".
+
+To test it, you can use "telnet ip port" and have a play :-).
+
+| Dependencies
+- mongodb (nodejs-npm)
+
+| Version
+- 0.1
